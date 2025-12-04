@@ -22,7 +22,6 @@ from fegrow import ChemSpace
 from dask.distributed import LocalCluster
 
 
-
 def main():
     OUTPUT_DIR = "fegrow_result"
 
