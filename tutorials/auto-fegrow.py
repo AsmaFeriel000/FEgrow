@@ -12,19 +12,15 @@
 import os  # afk
 from glob import glob  # afk
 
-import pandas as pd
 import prody
 from rdkit import Chem
 
 import fegrow
 from fegrow import ChemSpace
 
-from fegrow.testing import core_5R83_path, rec_5R83_path, data_5R83_path
 
 from dask.distributed import LocalCluster
 
-import os
-import shutil
 
 
 def main():
